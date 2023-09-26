@@ -1,0 +1,16 @@
+my_list = [5,9,2,3,8]
+print(my_list)
+print(my_list)
+
+#.sort() method organizes your list in numerical/alphabetcial order
+
+
+print(my_list)
+print(sorted(my_list))
+#print(sorted(item/variable)) organizes the list in the same value order as #.sort()
+my_list.insert(2,4)
+#.insert() can add an item to your list in the order you want to add its place 
+
+print(my_list)
+my_list.sort()
+print(my_list)

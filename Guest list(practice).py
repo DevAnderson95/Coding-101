@@ -1,0 +1,28 @@
+guest_list = ['amanda','granny','mommy','pops', 'jason', 'lauren']
+message = "Hey there " + guest_list[1].title() + "!" + "\n" + "I know this is supposed to be a dinner invite, but i decided to test and express myself instead" + "." + "\n" + "I just really felt the need to tell you how much I miss and love you" + "." + "\n" + "I greatly appreciate evrything that you have done for our family and I know that you are still here with me by my side as I start my journey to success" + "!" + "\n" + "I will not let you down, you have my honest word to god" + "!" + "Just please guide me as much as you can please " + guest_list[1].title() + "!" "\n" + "I only want to make you and MY(OUR) beautiful family PROUD!"
+print (message)
+print(guest_list)
+message = ("Hey there " + guest_list[0].title() + "!" + "\n" + "I am writing this to invite you to dinner tomorrow evening" + "!" + "\n" +  "It will be held during the hours of 5 PM " + "-" + " 9 PM" + "." + "\n" + "I hope that you can attend, as I am looking forward to seeing you along with a few other guests!")
+print(message)
+guest_list.append('aunty')
+print(guest_list)
+message = ("Hey there " + guest_list[6].title() + "!" + "\n" + "I am writing this to invite you to dinner tomorrow evening" + "!" + "\n" +  "It will be held during the hours of 5 PM " + "-" + " 9 PM" + "." + "\n" + "I hope that you can attend, as I am looking forward to seeing you along with a few other guests!")
+print(message)
+message = ("Hey there " + guest_list[3].title() + "!" + "\n" + "I am writing this to invite you to dinner tomorrow evening" + "!" + "\n" +  "It will be held during the hours of 5 PM " + "-" + " 9 PM" + "." + "\n" + "I hope that you can attend, as I am looking forward to seeing you along with a few other guests!")
+print(message)
+message = message = ("Hey there " + guest_list[4].title() + "!" + "\n" + "I am writing this to invite you to dinner tomorrow evening" + "!" + "\n" +  "It will be held during the hours of 5 PM " + "-" + " 9 PM" + "." + "\n" + "I hope that you can attend, as I am looking forward to seeing you along with a few other guests!")
+print(message)
+#item.sort() this orders your list alphabetically from A-Z
+print(guest_list)
+#sort(reverse = True)
+#guest_list.sort(reverse = False)
+#This reverses the order of your list alphabetically from Z-A)
+#guest_list.sort(reverse = False)
+print("Here is the original list: ")
+print(guest_list)
+print("This is the sorted list: ")
+print(sorted(guest_list))
+#print(sorted(guest_list))
+print("This is the original list again:")
+print(guest_list)
+
